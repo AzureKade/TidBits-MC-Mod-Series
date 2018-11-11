@@ -3,6 +3,7 @@ package com.example.examplemod;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
+import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
 import net.minecraftforge.client.event.ModelRegistryEvent;
@@ -11,7 +12,7 @@ import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.eventhandler.SubscribeEvent;
 
-@Mod.EventBusSubscriber(modid = "examplemod")
+@Mod.EventBusSubscriber(modid = TidBitsMasonry.MODID)
 public class Register {
 
     static Block LIMESTONE_BLOCK;
@@ -30,49 +31,49 @@ public class Register {
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("limestone_block")
-                .setRegistryName("limestone_block");
+                .setRegistryName("limestone_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         MARBLE_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("marble_block")
-                .setRegistryName("marble_block");
+                .setRegistryName("marble_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         SLATE_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(.8f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("slate_block")
-                .setRegistryName("slate_block");
+                .setRegistryName("slate_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         GABBRO_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("gabbro_block")
-                .setRegistryName("gabbro_block");
+                .setRegistryName("gabbro_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         BASALIT_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("basalit_block")
-                .setRegistryName("basalit_block");
+                .setRegistryName("basalit_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         RHYOLITE_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("rhyolite_block")
-                .setRegistryName("rhyolite_block");
+                .setRegistryName("rhyolite_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         DOLOMITE_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setUnlocalizedName("dolomite_block")
-                .setRegistryName("dolomite_block");
+                .setRegistryName("dolomite_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
     }
 
     @SubscribeEvent
