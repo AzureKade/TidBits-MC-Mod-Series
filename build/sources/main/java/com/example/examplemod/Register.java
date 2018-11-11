@@ -10,7 +10,10 @@ import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.init.Blocks;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemBlock;
+<<<<<<< HEAD
+=======
 import net.minecraft.item.ItemSlab;
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
 import net.minecraft.item.ItemStack;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 import net.minecraftforge.client.model.ModelLoader;
@@ -103,83 +106,148 @@ public class Register {
                 .setRegistryName("dolomite_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab_half",Material.ROCK);
+=======
         LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab",Material.ROCK);
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
         LIMESTONE_SLAB_HALF.setResistance(30)
                 .setHardness(.6f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("limestone_slab_double",Material.ROCK);
+=======
         LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("double_limestone_slab",Material.ROCK);
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
         LIMESTONE_SLAB_DOUBLE.setResistance(30)
                 .setHardness(.6f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        MARBLE_SLAB_HALF = new MasonrySlab.Half("marble_slab_half",Material.ROCK);
+        MARBLE_SLAB_HALF.setResistance(30)
+                .setHardness(.6f)
+=======
         MARBLE_SLAB_HALF = new MasonrySlab.Half("marble_slab",Material.ROCK);
         MARBLE_SLAB_HALF.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        MARBLE_SLAB_DOUBLE  = new MasonrySlab.Double("marble_slab_double",Material.ROCK);
+        MARBLE_SLAB_DOUBLE.setResistance(30)
+                .setHardness(.6f)
+=======
         MARBLE_SLAB_DOUBLE  = new MasonrySlab.Double("double_marble_slab",Material.ROCK);
         MARBLE_SLAB_DOUBLE.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab_half",Material.ROCK);
+        LIMESTONE_SLAB_HALF.setResistance(30)
+=======
         SLATE_SLAB_HALF = new MasonrySlab.Half("slate_slab",Material.ROCK);
         SLATE_SLAB_HALF.setResistance(30)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setHardness(.6f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("limestone_slab_double",Material.ROCK);
+        LIMESTONE_SLAB_DOUBLE.setResistance(30)
+=======
         SLATE_SLAB_DOUBLE  = new MasonrySlab.Double("double_slate_slab",Material.ROCK);
         SLATE_SLAB_DOUBLE.setResistance(30)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setHardness(.6f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab_half",Material.ROCK);
+        LIMESTONE_SLAB_HALF.setResistance(30)
+                .setHardness(.6f)
+=======
         BASALT_SLAB_HALF = new MasonrySlab.Half("basalt_slab",Material.ROCK);
         BASALT_SLAB_HALF.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("limestone_slab_double",Material.ROCK);
+        LIMESTONE_SLAB_DOUBLE.setResistance(30)
+                .setHardness(.6f)
+=======
         BASALT_SLAB_DOUBLE  = new MasonrySlab.Double("double_basalt_slab",Material.ROCK);
         BASALT_SLAB_DOUBLE.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab_half",Material.ROCK);
+        LIMESTONE_SLAB_HALF.setResistance(30)
+                .setHardness(.6f)
+=======
         GABBRO_SLAB_HALF = new MasonrySlab.Half("gabbro_slab",Material.ROCK);
         GABBRO_SLAB_HALF.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("limestone_slab_double",Material.ROCK);
+        LIMESTONE_SLAB_DOUBLE.setResistance(30)
+                .setHardness(.6f)
+=======
         GABBRO_SLAB_DOUBLE  = new MasonrySlab.Double("double_gabbro_slab",Material.ROCK);
         GABBRO_SLAB_DOUBLE.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab_half",Material.ROCK);
+        LIMESTONE_SLAB_HALF.setResistance(30)
+                .setHardness(.6f)
+=======
         RHYOLITE_SLAB_HALF = new MasonrySlab.Half("rhyolite_slab",Material.ROCK);
         RHYOLITE_SLAB_HALF.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+<<<<<<< HEAD
+        LIMESTONE_SLAB_DOUBLE  = new MasonrySlab.Double("limestone_slab_double",Material.ROCK);
+        LIMESTONE_SLAB_DOUBLE.setResistance(30)
+                .setHardness(.6f)
+=======
         RHYOLITE_SLAB_DOUBLE  = new MasonrySlab.Double("double_rhyolite_slab",Material.ROCK);
         RHYOLITE_SLAB_DOUBLE.setResistance(30)
                 .setHardness(1.3f)
@@ -197,6 +265,7 @@ public class Register {
         DOLOMITE_SLAB_DOUBLE  = new MasonrySlab.Double("double_dolomite_slab",Material.ROCK);
         DOLOMITE_SLAB_DOUBLE.setResistance(30)
                 .setHardness(1.3f)
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
                 .setLightLevel(0)
                 .setLightOpacity(0)
                 .setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
