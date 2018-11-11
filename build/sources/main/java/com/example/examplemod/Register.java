@@ -20,7 +20,7 @@ public class Register {
     static Block MARBLE_BLOCK;
     static Block GABBRO_BLOCK;
     static Block RHYOLITE_BLOCK;
-    static Block BASALIT_BLOCK;
+    static Block BASALT_BLOCK;
     static Block DOLOMITE_BLOCK;
 
 
@@ -53,13 +53,13 @@ public class Register {
                 .setLightOpacity(0)
                 .setUnlocalizedName("gabbro_block")
                 .setRegistryName("gabbro_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-        BASALIT_BLOCK = new Block(Material.ROCK)
+        BASALT_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
                 .setLightLevel(0)
                 .setLightOpacity(0)
-                .setUnlocalizedName("basalit_block")
-                .setRegistryName("basalit_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+                .setUnlocalizedName("basalt_block")
+                .setRegistryName("basalt_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         RHYOLITE_BLOCK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
@@ -79,7 +79,7 @@ public class Register {
     @SubscribeEvent
     public void registerBlocks(RegistryEvent.Register<Block> event)
     {
-        event.getRegistry().registerAll(LIMESTONE_BLOCK, MARBLE_BLOCK, SLATE_BLOCK, GABBRO_BLOCK, BASALIT_BLOCK, RHYOLITE_BLOCK, DOLOMITE_BLOCK);
+        event.getRegistry().registerAll(LIMESTONE_BLOCK, MARBLE_BLOCK, SLATE_BLOCK, GABBRO_BLOCK, BASALT_BLOCK, RHYOLITE_BLOCK, DOLOMITE_BLOCK);
     }
 
     @SubscribeEvent
@@ -90,7 +90,7 @@ public class Register {
                 new ItemBlock(MARBLE_BLOCK).setRegistryName(MARBLE_BLOCK.getRegistryName()),
                 new ItemBlock(SLATE_BLOCK).setRegistryName(SLATE_BLOCK.getRegistryName()),
                 new ItemBlock(RHYOLITE_BLOCK).setRegistryName(RHYOLITE_BLOCK.getRegistryName()),
-                new ItemBlock(BASALIT_BLOCK).setRegistryName(BASALIT_BLOCK.getRegistryName()),
+                new ItemBlock(BASALT_BLOCK).setRegistryName(BASALT_BLOCK.getRegistryName()),
                 new ItemBlock(DOLOMITE_BLOCK).setRegistryName(DOLOMITE_BLOCK.getRegistryName()),
                 new ItemBlock(GABBRO_BLOCK).setRegistryName(GABBRO_BLOCK.getRegistryName())
         );
@@ -103,7 +103,7 @@ public class Register {
         registerRender(Item.getItemFromBlock(RHYOLITE_BLOCK));
         registerRender(Item.getItemFromBlock(DOLOMITE_BLOCK));
         registerRender(Item.getItemFromBlock(GABBRO_BLOCK));
-        registerRender(Item.getItemFromBlock(BASALIT_BLOCK));
+        registerRender(Item.getItemFromBlock(BASALT_BLOCK));
     }
 
     public static void registerRender(Item item) {
