@@ -16,3 +16,6 @@ out
 # other
 eclipse
 run
+*.xml
+*.bin
+.idea/workspace.xml
