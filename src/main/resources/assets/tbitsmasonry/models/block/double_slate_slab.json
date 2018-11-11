@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "tbitsmasonry:blocks/slate",
+        "side": "tbitsmasonry:blocks/slate"
+    }
+}
