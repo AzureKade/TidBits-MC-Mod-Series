@@ -6,87 +6,719 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :compileApiJava UP-TO-DATE
 :processApiResources UP-TO-DATE
 :apiClasses UP-TO-DATE
-:sourceMainJava UP-TO-DATE
-:compileJava
+:sourceMainJava
+:compileJavaNote: D:\Other Projects\TidBits-MC-Mod-Series\build\sources\main\java\com\example\examplemod\MasonrySlab.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
 :processResources UP-TO-DATE
 :classes
-:jar UP-TO-DATE
+:jar
 :getVersionJson
 :extractNatives SKIPPED
 :extractUserdev UP-TO-DATE
 :getAssetIndex UP-TO-DATE
 :getAssets
-Current status: 1079/1305   82%
+Current status: 1104/1305   84%
 :makeStart
 :runClient
-[09:02:21] [main/INFO] [GradleStart]: Extra: []
-[09:02:21] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[09:02:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
-[09:02:21] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2732 for Minecraft 1.12.2 loading
-[09:02:21] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_181\jre
-[09:02:21] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
-[09:02:21] [main/ERROR] [FML]: Full: C:\Users\richa.DESKTOP-FJ2ISTS\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
-[09:02:21] [main/ERROR] [FML]: Trimmed: c:/users/richa.desktop-fj2ists/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
-[09:02:21] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[09:02:21] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
-2018-11-11 09:02:21,889 main WARN Disabling terminal, you're running in an unsupported environment.
-[09:02:21] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
-[09:02:21] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
-[09:02:21] [main/INFO] [FML]: Searching D:\Other Projects\TidBits-MC-Mod-Series\run\.\mods for mods
-[09:02:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[09:02:21] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
-[09:02:21] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[09:02:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
-[09:02:21] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[09:02:22] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
-[09:02:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
-[09:02:22] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
-[09:02:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[09:02:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
-[09:02:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
-[09:02:23] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[09:02:23] [main/INFO] [minecraft/Minecraft]: Setting user: Player672
-[09:02:27] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
-[09:02:27] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
-[09:02:29] [main/INFO] [FML]: -- System Details --
+[10:35:29] [main/INFO] [GradleStart]: Extra: []
+[10:35:29] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[10:35:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:35:29] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:35:29] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:35:29] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[10:35:29] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2732 for Minecraft 1.12.2 loading
+[10:35:29] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_181, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_181\jre
+[10:35:29] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[10:35:29] [main/ERROR] [FML]: Full: C:\Users\richa.DESKTOP-FJ2ISTS\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[10:35:29] [main/ERROR] [FML]: Trimmed: c:/users/richa.desktop-fj2ists/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[10:35:29] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[10:35:29] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2018-11-11 10:35:30,450 main WARN Disabling terminal, you're running in an unsupported environment.
+[10:35:30] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[10:35:30] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[10:35:30] [main/INFO] [FML]: Searching D:\Other Projects\TidBits-MC-Mod-Series\run\.\mods for mods
+[10:35:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[10:35:30] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[10:35:30] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[10:35:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:35:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:35:30] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:35:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:35:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[10:35:30] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:35:31] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[10:35:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[10:35:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[10:35:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[10:35:31] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:35:31] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[10:35:31] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[10:35:32] [main/INFO] [minecraft/Minecraft]: Setting user: Player228
+[10:35:35] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[10:35:35] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[10:35:36] [main/INFO] [FML]: -- System Details --
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_181, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 846801888 bytes (807 MB) / 1020788736 bytes (973 MB) up to 7609516032 bytes (7257 MB)
+	Memory: 678287480 bytes (646 MB) / 922746880 bytes (880 MB) up to 7609516032 bytes (7257 MB)
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 411.70' Renderer: 'GeForce GTX 970/PCIe/SSE2'
-[09:02:29] [main/INFO] [FML]: MinecraftForge v14.23.4.2732 Initialized
-[09:02:29] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
-[09:02:29] [main/INFO] [FML]: Replaced 1036 ore ingredients
-[09:02:30] [main/INFO] [FML]: Searching D:\Other Projects\TidBits-MC-Mod-Series\run\.\mods for mods
-[09:02:31] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
-[09:02:31] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at CLIENT
-[09:02:31] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at SERVER
-[09:02:31] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:TidBits Masonry
-[09:02:32] [main/INFO] [FML]: Processing ObjectHolder annotations
-[09:02:32] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
-[09:02:32] [main/INFO] [FML]: Identifying ItemStackHolder annotations
-[09:02:32] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
-[09:02:32] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
-[09:02:32] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
-[09:02:32] [main/WARN] [FML]: ****************************************
-[09:02:32] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:limestone_block} has been registered twice for the same name tbitsmasonry:limestone_block.
-[09:02:32] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
-[09:02:32] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
-[09:02:32] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
-[09:02:32] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
-[09:02:32] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:82)
-[09:02:32] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
-[09
+[10:35:36] [main/INFO] [FML]: MinecraftForge v14.23.4.2732 Initialized
+[10:35:36] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[10:35:36] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[10:35:37] [main/INFO] [FML]: Searching D:\Other Projects\TidBits-MC-Mod-Series\run\.\mods for mods
+[10:35:38] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[10:35:38] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at CLIENT
+[10:35:38] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at SERVER
+[10:35:38] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:TidBits Masonry
+[10:35:38] [main/INFO] [FML]: Processing ObjectHolder annotations
+[10:35:38] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[10:35:38] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[10:35:38] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[10:35:38] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[10:35:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:limestone_block} has been registered twice for the same name tbitsmasonry:limestone_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:marble_block} has been registered twice for the same name tbitsmasonry:marble_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:slate_block} has been registered twice for the same name tbitsmasonry:slate_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:gabbro_block} has been registered twice for the same name tbitsmasonry:gabbro_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:basalt_block} has been registered twice for the same name tbitsmasonry:basalt_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:rhyolite_block} has been registered twice for the same name tbitsmasonry:rhyolite_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:dolomite_block} has been registered twice for the same name tbitsmasonry:dolomite_block.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:limestone_slab} has been registered twice for the same name tbitsmasonry:limestone_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_limestone_slab} has been registered twice for the same name tbitsmasonry:double_limestone_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:marble_slab} has been registered twice for the same name tbitsmasonry:marble_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_marble_slab} has been registered twice for the same name tbitsmasonry:double_marble_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:slate_slab} has been registered twice for the same name tbitsmasonry:slate_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_slate_slab} has been registered twice for the same name tbitsmasonry:double_slate_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:rhyolite_slab} has been registered twice for the same name tbitsmasonry:rhyolite_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_rhyolite_slab} has been registered twice for the same name tbitsmasonry:double_rhyolite_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:basalt_slab} has been registered twice for the same name tbitsmasonry:basalt_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_basalt_slab} has been registered twice for the same name tbitsmasonry:double_basalt_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:dolomite_slab} has been registered twice for the same name tbitsmasonry:dolomite_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_dolomite_slab} has been registered twice for the same name tbitsmasonry:double_dolomite_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:gabbro_slab} has been registered twice for the same name tbitsmasonry:gabbro_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_gabbro_slab} has been registered twice for the same name tbitsmasonry:double_gabbro_slab.
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[10:35:38] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:208)
+[10:35:38] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[10:35:38] [main/WARN] [FML]: ****************************************
+[10:35:38] [main/INFO] [FML]: Applying holder lookups
+[10:35:38] [main/INFO] [FML]: Holder lookups applied
+[10:35:38] [main/INFO] [FML]: Applying holder lookups
+[10:35:38] [main/INFO] [FML]: Holder lookups applied
+[10:35:38] [main/INFO] [FML]: Applying holder lookups
+[10:35:38] [main/INFO] [FML]: Holder lookups applied
+[10:35:38] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2768
+[10:35:38] [main/INFO] [FML]: Applying holder lookups
+[10:35:38] [main/INFO] [FML]: Holder lookups applied
+[10:35:38] [main/INFO] [FML]: Injecting itemstacks
+[10:35:38] [main/INFO] [FML]: Itemstack injection complete
+[10:35:39] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 164604206 nanos
+[10:35:41] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[10:35:41] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[10:35:41] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[10:35:41] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[10:35:42] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[10:35:45] [main/INFO] [FML]: Max texture size: 16384
+[10:35:45] [main/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[10:35:46] [main/ERROR] [FML]: Exception loading model for variant tbitsmasonry:dolomite_slab#half=bottom,variant=default for blockstate "tbitsmasonry:dolomite_slab[half=bottom,variant=default]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model tbitsmasonry:dolomite_slab#half=bottom,variant=default with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:237) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1182) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[10:35:46] [main/ERROR] [FML]: Exception loading blockstate for the variant tbitsmasonry:dolomite_slab#half=bottom,variant=default: 
+java.lang.Exception: Could not load model definition for variant tbitsmasonry:dolomite_slab
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:271) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model tbitsmasonry:blockstates/dolomite_slab.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: tbitsmasonry:blockstates/dolomite_slab.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+[10:35:46] [main/ERROR] [FML]: Exception loading model for variant tbitsmasonry:double_rhyolite_slab#variant=default for blockstate "tbitsmasonry:double_rhyolite_slab[variant=default]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model tbitsmasonry:double_rhyolite_slab#variant=default with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:237) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1182) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[10:35:46] [main/ERROR] [FML]: Exception loading blockstate for the variant tbitsmasonry:double_rhyolite_slab#variant=default: 
+java.lang.Exception: Could not load model definition for variant tbitsmasonry:double_rhyolite_slab
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:271) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model tbitsmasonry:blockstates/double_rhyolite_slab.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: tbitsmasonry:blockstates/double_rhyolite_slab.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+[10:35:46] [main/ERROR] [FML]: Exception loading model for variant tbitsmasonry:double_basalt_slab#variant=default for blockstate "tbitsmasonry:double_basalt_slab[variant=default]"
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model tbitsmasonry:double_basalt_slab#variant=default with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.registerVariant(ModelLoader.java:237) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:153) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1182) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 21 more
+[10:35:46] [main/ERROR] [FML]: Exception loading blockstate for the variant tbitsmasonry:double_basalt_slab#variant=default: 
+java.lang.Exception: Could not load model definition for variant tbitsmasonry:double_basalt_slab
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:271) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model tbitsmasonry:blockstates/double_basalt_slab.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: tbitsmasonry:blockstates/double_basalt_slab.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+[10:35:46] [main/ERROR] [FML]: Exception loading model for variant tbitsmasonry:gabbro_slab#inventory for item "tbitsmasonry:gabbro_slab", normal location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model tbitsmasonry:item/gabbro_slab with loader VanillaLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:310) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:153) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.io.FileNotFoundException: tbitsmasonry:models/item/gabbro_slab.json
+	at net.minecraft.client.resources.FallbackResourceManager.getResource(FallbackResourceManager.java:69) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getResource(SimpleReloadableResourceManager.java:65) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadModel(ModelBakery.java:334) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.access$1600(ModelLoader.java:117) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VanillaLoader.loadModel(ModelLoader.java:868) ~[ModelLoader$VanillaLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:35:46] [main/ERROR] [FML]: Exception loading model for variant tbitsmasonry:gabbro_slab#inventory for item "tbitsmasonry:gabbro_slab", blockstate location exception: 
+net.minecraftforge.client.model.ModelLoaderRegistry$LoaderException: Exception loading model tbitsmasonry:gabbro_slab#inventory with loader VariantLoader.INSTANCE, skipping
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:153) ~[ModelLoaderRegistry.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadItemModels(ModelLoader.java:304) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadVariantItemModels(ModelBakery.java:175) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:153) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: net.minecraft.client.renderer.block.model.ModelBlockDefinition$MissingVariantException
+	at net.minecraft.client.renderer.block.model.ModelBlockDefinition.getVariant(ModelBlockDefinition.java:83) ~[ModelBlockDefinition.class:?]
+	at net.minecraftforge.client.model.ModelLoader$VariantLoader.loadModel(ModelLoader.java:1182) ~[ModelLoader$VariantLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoaderRegistry.getModel(ModelLoaderRegistry.java:149) ~[ModelLoaderRegistry.class:?]
+	... 20 more
+[10:35:46] [main/ERROR] [FML]: Exception loading blockstate for the variant tbitsmasonry:gabbro_slab#inventory: 
+java.lang.Exception: Could not load model definition for variant tbitsmasonry:gabbro_slab
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:271) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadBlock(ModelBakery.java:121) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.loadBlocks(ModelLoader.java:225) ~[ModelLoader.class:?]
+	at net.minecraftforge.client.model.ModelLoader.setupModelRegistry(ModelLoader.java:152) ~[ModelLoader.class:?]
+	at net.minecraft.client.renderer.block.model.ModelManager.onResourceManagerReload(ModelManager.java:28) [ModelManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.registerReloadListener(SimpleReloadableResourceManager.java:121) [SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.Minecraft.init(Minecraft.java:559) [Minecraft.class:?]
+	at net.minecraft.client.Minecraft.run(Minecraft.java:421) [Minecraft.class:?]
+	at net.minecraft.client.main.Main.main(Main.java:118) [Main.class:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraft.launchwrapper.Launch.launch(Launch.java:135) [launchwrapper-1.12.jar:?]
+	at net.minecraft.launchwrapper.Launch.main(Launch.java:28) [launchwrapper-1.12.jar:?]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[?:1.8.0_181]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
+	at java.lang.reflect.Method.invoke(Method.java:498) ~[?:1.8.0_181]
+	at net.minecraftforge.gradle.GradleStartCommon.launch(GradleStartCommon.java:97) [start/:?]
+	at GradleStart.main(GradleStart.java:25) [start/:?]
+Caused by: java.lang.RuntimeException: Encountered an exception when loading model definition of model tbitsmasonry:blockstates/gabbro_slab.json
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:228) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+Caused by: java.io.FileNotFoundException: tbitsmasonry:blockstates/gabbro_slab.json
+	at net.minecraft.client.resources.FallbackResourceManager.getAllResources(FallbackResourceManager.java:104) ~[FallbackResourceManager.class:?]
+	at net.minecraft.client.resources.SimpleReloadableResourceManager.getAllResources(SimpleReloadableResourceManager.java:79) ~[SimpleReloadableResourceManager.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.loadMultipartMBD(ModelBakery.java:221) ~[ModelBakery.class:?]
+	at net.minecraft.client.renderer.block.model.ModelBakery.getModelBlockDefinition(ModelBakery.java:208) ~[ModelBakery.class:?]
+	at net.minecraftforge.client.model.ModelLoader.getModelBlockDefinition(ModelLoader.java:267) ~[ModelLoader.class:?]
+	... 20 more
+[10:35:46] [main/FATAL] [FML]: Suppressed additional 19 model loading errors for domain tbitsmasonry
+[10:35:47] [main/INFO] [FML]: Applying holder lookups
+[10:35:47] [main/INFO] [FML]: Holder lookups applied
+[10:35:47] [main/INFO] [examplemod]: DIRT BLOCK >> minecraft:dirt
+[10:35:47] [main/INFO] [tbitsmasonry]: DIRT BLOCK >> minecraft:dirt
+[10:35:47] [main/INFO] [FML]: Injecting itemstacks
+[10:35:47] [main/INFO] [FML]: Itemstack injection complete
+[10:35:47] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[10:35:47] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[10:35:47] [main/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[10:35:48] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[10:35:51] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[10:35:51] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[10:35:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:marble_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:slate_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:rhyolite_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:limestone_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:gabbro_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:gabbro_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:marble_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:dolomite_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:rhyolite_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:basalt_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:limestone_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:basalt_slab_double
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:dolomite_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Block: Found a missing id from the world tbitsmasonry:slate_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:basalt_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:limestone_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:marble_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:gabbro_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:rhyolite_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:dolomite_slab_half
+[10:35:52] [Server thread/INFO] [FML]: Registry Item: Found a missing id from the world tbitsmasonry:slate_slab_half
+[10:35:52] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:blocks
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:basalt_slab_double: 270
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:limestone_slab_double: 262
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:marble_slab_half: 263
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:marble_slab_double: 264
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:gabbro_slab_double: 274
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:slate_slab_half: 265
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:dolomite_slab_half: 271
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:rhyolite_slab_half: 267
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:slate_slab_double: 266
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:basalt_slab_half: 269
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:gabbro_slab_half: 273
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:rhyolite_slab_double: 268
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:dolomite_slab_double: 272
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:limestone_slab_half: 261
+[10:35:52] [Server thread/ERROR] [FML]: Unidentified mapping from registry minecraft:items
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:slate_slab_half: 4105
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:dolomite_slab_half: 4107
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:basalt_slab_half: 4109
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:gabbro_slab_half: 4108
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:limestone_slab_half: 4103
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:rhyolite_slab_half: 4106
+[10:35:52] [Server thread/ERROR] [FML]:     tbitsmasonry:marble_slab_half: 4104
+[10:35:53] [Server thread/INFO] [FML]: World backup created at D:\Other Projects\TidBits-MC-Mod-Series\run\saves\New Worldsrgedthygjm-20181111-103553.zip.
+[10:35:53] [Server thread/ERROR] [FML]: There are unidentified mappings in this world - we are going to attempt to process anyway
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_marble_slab Expected: 264 Got: 275
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_limestone_slab Expected: 262 Got: 276
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_basalt_slab Expected: 270 Got: 277
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:basalt_slab Expected: 269 Got: 278
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:gabbro_slab Expected: 273 Got: 279
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_slate_slab Expected: 266 Got: 280
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_dolomite_slab Expected: 272 Got: 281
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:dolomite_slab Expected: 271 Got: 282
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:marble_slab Expected: 263 Got: 283
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_rhyolite_slab Expected: 268 Got: 284
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:rhyolite_slab Expected: 267 Got: 285
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:limestone_slab Expected: 261 Got: 286
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:slate_slab Expected: 265 Got: 287
+[10:35:53] [Server thread/WARN] [FML]: Registry Block: Object did not get ID it asked for. Name: tbitsmasonry:double_gabbro_slab Expected: 274 Got: 288
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:dolomite_slab Expected: 4107 Got: 4110
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:marble_slab Expected: 4104 Got: 4111
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:basalt_slab Expected: 4109 Got: 4112
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:rhyolite_slab Expected: 4106 Got: 4113
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:limestone_slab Expected: 4103 Got: 4114
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:slate_slab Expected: 4105 Got: 4115
+[10:35:53] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:gabbro_slab Expected: 4108 Got: 4116
+[10:35:54] [Server thread/INFO] [FML]: Applying holder lookups
+[10:35:54] [Server thread/INFO] [FML]: Holder lookups applied
+[10:35:54] [Server thread/INFO] [FML]: Loading dimension 0 (New Worldsrgedthygjm) (net.minecraft.server.integrated.IntegratedServer@6bff31e)
+[10:35:54] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[10:35:54] [Server thread/INFO] [FML]: Loading dimension -1 (New Worldsrgedthygjm) (net.minecraft.server.integrated.IntegratedServer@6bff31e)
+[10:35:54] [Server thread/INFO] [FML]: Loading dimension 1 (New Worldsrgedthygjm) (net.minecraft.server.integrated.IntegratedServer@6bff31e)
+[10:35:54] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[10:35:55] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 67%
+[10:35:56] [Server thread/INFO] [FML]: Unloading dimension -1
+[10:35:56] [Server thread/INFO] [FML]: Unloading dimension 1
+[10:35:56] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[10:35:56] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[10:35:56] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[10:35:56] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,tbitsmasonry@1.0,FML@8.0.99.99,forge@14.23.4.2732,mcp@9.42,examplemod@1.0
+[10:35:56] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[10:35:57] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[10:35:57] [Server thread/INFO] [minecraft/PlayerList]: Player228[local:E:29e3f4e2] logged in with entity id 447 at (228.5438165050794, 81.65228516819134, 54.32903579790309)
+[10:35:57] [Server thread/INFO] [minecraft/MinecraftServer]: Player228 joined the game
+[10:35:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:35:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:35:58] [pool-2-thread-1/WARN] [mojang/YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@766eecd8[id=edb8d6a3-e33d-3ebb-8b42-fbfd789b2d20,name=Player228,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3179) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_181]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_181]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_181]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_181]
+[10:36:23] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:36:23] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:36:35] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:36:35] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:36:39] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:36:39] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:36:46] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[10:36:46] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:37:03] [main/INFO] [minecraft/Minecraft]: Stopping!
+[10:37:03] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[10:37:03] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[10:37:03] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[10:37:03] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New Worldsrgedthygjm'/overworld
+[10:37:04] [Server thread/INFO] [FML]: Unloading dimension 0
+[10:37:04] [Server thread/INFO] [FML]: Applying holder lookups
+[10:37:04] [Server thread/INFO] [FML]: Holder lookups applied
+[10:37:04] [main/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[10:37:04] [main/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 1 mins 41.031 secs

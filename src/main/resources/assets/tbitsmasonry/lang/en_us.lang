@@ -5,3 +5,5 @@ tile.gabbro_block.name=Gabbro Block
 tile.basalt_block.name=Basalt Block
 tile.rhyolite_block.name=Rhyolite Block
 tile.dolomite_block.name=Dolomite Block
+
+tile.limestone_slab.name=Limestone Slab
