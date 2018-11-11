@@ -1,22 +1,8 @@
-# eclipse
-bin
-*.launch
-.settings
-.metadata
-.classpath
-.project
-
-# idea
-out
-
-
-# gradle
-
-
-# other
-eclipse
-run
-*.xml
-*.bin
-.idea/workspace.xml
-*.xml
+# First, ignore everything
+*
+# Now, whitelist anything that's a directory
+!*/
+# And all the file types you're interested in.
+!*.java
+!*.png
+!*.json
