@@ -19,3 +19,4 @@ run
 *.xml
 *.bin
 .idea/workspace.xml
+*.xml
