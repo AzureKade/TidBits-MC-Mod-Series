@@ -2,6 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e140085f-9a2b-446b-a6ab-43f25c26f3be" name="Default Changelist" comment="">
+<<<<<<< HEAD
+=======
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/double_limestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/bottom_limestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/double_limestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/upper_limestone_slab.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/limestone_slab.json" afterDir="false" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
       <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/cache.properties.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/2.14/taskArtifacts/fileSnapshots.bin" afterDir="false" />
@@ -10,9 +19,25 @@
       <change beforePath="$PROJECT_DIR$/.gradle/gradle.log" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/gradle.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/TidBits-MC-Mod-Series.iml" beforeDir="false" afterPath="$PROJECT_DIR$/TidBits-MC-Mod-Series.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/GradleStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/tmp/makeStart/extracted/net/minecraftforge/gradle/GradleStartCommon.java" afterDir="false" />
+=======
+      <change beforePath="$PROJECT_DIR$/build/classes/main/com/example/examplemod/Register.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/main/com/example/examplemod/Register.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/TB-0.1.jar" beforeDir="false" afterPath="$PROJECT_DIR$/build/libs/TB-0.1.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/lang/en_us.lang" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/basalt.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/basalt.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/dolomite.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/dolomite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/gabbro.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/gabbro.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/limestone.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/limestone.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/marble.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/marble.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/rhyolite.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/rhyolite.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/slate.png" beforeDir="false" afterPath="$PROJECT_DIR$/build/resources/main/assets/tbitsmasonry/textures/blocks/slate.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/sources/main/java/com/example/examplemod/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/build/sources/main/java/com/example/examplemod/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang" afterDir="false" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -56,6 +81,11 @@
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="forgegradle" type="c8890929:TasksNode$1" />
               </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="TidBits-MC-Mod-Series" type="f1a62948:ProjectNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
             </expand>
             <select />
           </tree_state>
@@ -79,7 +109,7 @@
           <entry key="gradlew" value="1" />
           <entry key="iml" value="1" />
           <entry key="java" value="10" />
-          <entry key="json" value="51" />
+          <entry key="json" value="65" />
           <entry key="lang" value="2" />
           <entry key="limestone_block" value="2" />
           <entry key="limestonetext" value="1" />
@@ -90,25 +120,25 @@
         <counts>
           <entry key="IDEA_MODULE" value="1" />
           <entry key="JAVA" value="10" />
-          <entry key="JSON" value="51" />
+          <entry key="JSON" value="65" />
           <entry key="PLAIN_TEXT" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1495" />
-          <entry key="json" value="174" />
-          <entry key="lang" value="142" />
+          <entry key="java" value="1787" />
+          <entry key="json" value="361" />
+          <entry key="lang" value="183" />
           <entry key="limestone_block" value="52" />
           <entry key="limestonetext" value="27" />
-          <entry key="txt" value="4" />
+          <entry key="txt" value="50" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1495" />
-          <entry key="JSON" value="174" />
-          <entry key="PLAIN_TEXT" value="225" />
+          <entry key="JAVA" value="1787" />
+          <entry key="JSON" value="361" />
+          <entry key="PLAIN_TEXT" value="312" />
         </counts>
       </usages-collector>
     </session>
@@ -118,6 +148,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
       <file leaf-file-name="TidBitsMasonry.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/TidBitsMasonry.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -126,6 +157,13 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_block.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
             </state>
           </provider>
         </entry>
@@ -133,8 +171,8 @@
       <file leaf-file-name="en_us.lang" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+            <state relative-caret-position="136">
+              <caret line="8" column="19" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -142,8 +180,13 @@
       <file leaf-file-name="Register.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="1972">
               <caret line="131" selection-start-line="131" selection-end-line="131" />
+=======
+            <state relative-caret-position="347">
+              <caret line="193" column="35" lean-forward="true" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,11 +194,73 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="MasonrySlab.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/MasonrySlab.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
               <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+=======
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/double_limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/bottom_limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/double_limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/upper_limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/limestone_slab.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/MasonrySlab.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="364">
+              <caret line="53" selection-start-line="53" selection-end-line="53" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
               <folding>
                 <element signature="e#1363#1364#0" expanded="true" />
                 <element signature="e#1393#1394#0" expanded="true" />
@@ -170,6 +275,7 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file leaf-file-name="BlockStoneSlab.java" pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2732/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2732-sources.jar!/net/minecraft/block/BlockStoneSlab.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -206,14 +312,18 @@
           </provider>
         </entry>
       </file>
+=======
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="item_name" />
       </list>
     </option>
+    <option name="SCHEME" value="Project" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -820,7 +930,6 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/limestone_block.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/marble_block.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/slate_block.json" />
-        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/basalt_block.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/dolomite_block.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/gabbro_block.json" />
@@ -838,6 +947,13 @@
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/rhyolite_block.json" />
         <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/slate_block.json" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/examplemod/MasonrySlab.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/upper_limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/bottom_limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/double_limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/double_limestone_slab.json" />
+        <option value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang" />
         <option value="$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java" />
       </list>
     </option>
@@ -974,6 +1090,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
               <item name="tbitsmasonry" type="462c0819:PsiDirectoryNode" />
+              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="item" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="TidBits-MC-Mod-Series" type="b2602c69:ProjectViewProjectNode" />
+              <item name="TidBits-MC-Mod-Series" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="tbitsmasonry" type="462c0819:PsiDirectoryNode" />
               <item name="blocks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -990,7 +1116,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541947460334" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541950591612" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models" />
     <property name="project.structure.last.edited" value="SDKs" />
     <property name="project.structure.proportion" value="0.15" />
@@ -1000,9 +1126,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry\models\item" />
       <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry\models\block" />
       <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry\blockstates" />
+      <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry\models\item" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry\models" />
@@ -1010,6 +1136,122 @@
       <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources\assets\tbitsmasonry" />
       <recent name="D:\Other Projects\TidBits-MC-Mod-Series\src\main\resources" />
     </key>
+  </component>
+  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
+    <UpdatedFiles>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Updated from server" />
+        <option name="myStatusName" value="Changed on server" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="CHANGED_ON_SERVER" />
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Updated" />
+          <option name="myStatusName" value="Changed" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="UPDATED" />
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/basalt.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/dolomite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/gabbro.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/limestone.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/marble.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/rhyolite.png</PATH>
+          <PATH vcs="Git" revision="">$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/textures/blocks/slate.png</PATH>
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Created" />
+          <option name="myStatusName" value="Created" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="CREATED" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Deleted" />
+          <option name="myStatusName" value="Deleted" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="true" />
+          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
+        </FILE-GROUP>
+        <FILE-GROUP>
+          <option name="myUpdateName" value="Restored" />
+          <option name="myStatusName" value="Will be restored" />
+          <option name="mySupportsDeletion" value="false" />
+          <option name="myCanBeAbsent" value="false" />
+          <option name="myId" value="RESTORED" />
+        </FILE-GROUP>
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Modified" />
+        <option name="myStatusName" value="Modified" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MODIFIED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Skipped" />
+        <option name="myStatusName" value="Skipped" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SKIPPED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with conflicts" />
+        <option name="myStatusName" value="Will be merged with conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_CONFLICTS" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with tree conflicts" />
+        <option name="myStatusName" value="Merged with tree conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged with property conflicts" />
+        <option name="myStatusName" value="Will be merged with property conflicts" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Merged" />
+        <option name="myStatusName" value="Will be merged" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="MERGED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Not in repository" />
+        <option name="myStatusName" value="Not in repository" />
+        <option name="mySupportsDeletion" value="true" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="UNKNOWN" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally added" />
+        <option name="myStatusName" value="Locally added" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_ADDED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Locally removed" />
+        <option name="myStatusName" value="Locally removed" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="LOCALLY_REMOVED" />
+      </FILE-GROUP>
+      <FILE-GROUP>
+        <option name="myUpdateName" value="Switched" />
+        <option name="myStatusName" value="Switched" />
+        <option name="mySupportsDeletion" value="false" />
+        <option name="myCanBeAbsent" value="false" />
+        <option name="myId" value="SWITCHED" />
+      </FILE-GROUP>
+    </UpdatedFiles>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -1099,6 +1341,14 @@
       <option name="presentableId" value="Default" />
       <updated>1541897259773</updated>
     </task>
+    <task id="LOCAL-00001" summary="Ima kermit if I have to do slabs ever again">
+      <created>1541947510084</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1541947510084</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -1123,19 +1373,40 @@
       <window_info id="UI Designer" order="5" />
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info id="Favorites" order="6" sideWeight="0.50161815" side_tool="true" weight="0.25" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329718" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.329718" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+<<<<<<< HEAD
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" anchor="bottom" id="Build" order="10" visible="true" weight="0.32943678" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+=======
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Capture Analysis" order="4" />
+      <window_info anchor="right" id="Gradle" order="5" weight="0.42324093" />
+      <window_info anchor="right" id="Theme Preview" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven Projects" order="8" weight="0.32995737" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Ima kermit if I have to do slabs ever again" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ima kermit if I have to do slabs ever again" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2732/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2732-sources.jar!/net/minecraft/block/BlockSlab.java">
@@ -1410,13 +1681,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_block.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/minecraft/net/minecraftforge/forge/1.12.2-14.23.4.2732/snapshot/20171003/forgeSrc-1.12.2-14.23.4.2732-sources.jar!/net/minecraft/block/Block.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1455,27 +1719,88 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/upper_limestone_slab.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/double_limestone_slab.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/block/bottom_limestone_slab.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/models/item/limestone_slab.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="1972">
           <caret line="131" selection-start-line="131" selection-end-line="131" />
+=======
+        <state relative-caret-position="364">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/MasonrySlab.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="14" column="9" selection-start-line="14" selection-start-column="9" selection-end-line="14" selection-end-column="9" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_slab.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="1" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/limestone_block.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="55" selection-start-line="3" selection-start-column="55" selection-end-line="3" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/lang/en_us.lang">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="19" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/assets/tbitsmasonry/blockstates/double_limestone_slab.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/example/examplemod/Register.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="193" column="35" lean-forward="true" selection-start-line="193" selection-start-column="35" selection-end-line="193" selection-end-column="35" />
+>>>>>>> dec8ba69a43cc9149ef47d9d4b54f0d8af740306
           <folding>
             <element signature="e#1363#1364#0" expanded="true" />
             <element signature="e#1393#1394#0" expanded="true" />
