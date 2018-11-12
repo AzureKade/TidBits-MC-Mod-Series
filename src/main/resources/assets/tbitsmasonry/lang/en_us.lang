@@ -19,3 +19,13 @@ tile.dolomite_slab.name=Dolomite Slab
 tile.gabbro_polished.name=Polished Gabbro
 tile.rhyolite_brick.name=Rhyolite Brick
 >>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090
+
+tile.basalt_polished.name=Polished Basalt
+
+tile.dolomite_polished.name=Polished Dolomite
+
+tile.limestone_brick.name=Limestone Brick
+
+tile.marble_polished.name=Polished Marble
+
+tile.slate_polished.name=Polished Slate
