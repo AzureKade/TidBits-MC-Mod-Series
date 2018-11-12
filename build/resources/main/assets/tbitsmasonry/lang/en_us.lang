@@ -1,10 +1,10 @@
-tile.limestone_block.name=Limestone Block
-tile.marble_block.name=Marble Block
-tile.slate_block.name=Slate Block
-tile.gabbro_block.name=Gabbro Block
-tile.basalt_block.name=Basalt Block
-tile.rhyolite_block.name=Rhyolite Block
-tile.dolomite_block.name=Dolomite Block
+tile.limestone_block.name=Limestone
+tile.marble_block.name=Marble
+tile.slate_block.name=Slate
+tile.gabbro_block.name=Gabbro
+tile.basalt_block.name=Basalt
+tile.rhyolite_block.name=Rhyolite
+tile.dolomite_block.name=Dolomite
 
 tile.limestone_slab.name=Limestone Slab
 tile.marble_slab.name=Marble Slab
@@ -13,3 +13,6 @@ tile.gabbro_slab.name=Gabbro Slab
 tile.basalt_slab.name=Basalt Slab
 tile.rhyolite_slab.name=Rhyolite Slab
 tile.dolomite_slab.name=Dolomite Slab
+
+tile.gabbro_polished.name=Polished Gabbro
+tile.rhyolite_brick.name=Rhyolite Brick

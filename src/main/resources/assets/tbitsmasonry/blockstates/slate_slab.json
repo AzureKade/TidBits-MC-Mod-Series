@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "tbitsmasonry:bottom_slate_slab" },
+        "half=top,variant=default": { "model": "tbitsmasonry:upper_slate_slab" }
+    }
+}
