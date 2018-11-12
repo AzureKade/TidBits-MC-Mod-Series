@@ -1,14 +1,5 @@
 This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril.
 
-#################################################
-         ForgeGradle 2.3-SNAPSHOT-ee3e3df        
-  https://github.com/MinecraftForge/ForgeGradle  
-#################################################
-                 Powered by MCP                  
-             http://modcoderpack.com             
-     by: Searge, ProfMobius, R4wk, ZeuX          
-     Fesh0r, IngisKahn, bspkrs, LexManos         
-#################################################
 :deobfCompileDummyTask
 :deobfProvidedDummyTask
 :sourceApiJava UP-TO-DATE
@@ -19,7 +10,7 @@ This mapping 'snapshot_20171003' was designed for MC 1.12! Use at your own peril
 :compileJavaNote: D:\Other Projects\TidBits-MC-Mod-Series\build\sources\main\java\com\example\examplemod\MasonrySlab.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:processResources
+:processResources UP-TO-DATE
 :classes
 :jar
 :getVersionJson
@@ -27,6 +18,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :extractUserdev UP-TO-DATE
 :getAssetIndex UP-TO-DATE
 :getAssets
+<<<<<<< HEAD
 Current status: 1075/1305   82%
 :makeStart
 :runClient
@@ -67,16 +59,65 @@ Current status: 1075/1305   82%
 [18:47:05] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
 [18:47:05] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
 [18:47:07] [main/INFO] [FML]: -- System Details --
+=======
+Current status: 274/1305   20%
+Current status: 969/1305   74%
+Current status: 1076/1305   82%
+:makeStart
+:runClient
+[19:36:23] [main/INFO] [GradleStart]: Extra: []
+[19:36:23] [main/INFO] [GradleStart]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Dylan/.gradle/caches/minecraft/assets, --assetIndex, 1.12, --accessToken{REDACTED}, --version, 1.12.2, --tweakClass, net.minecraftforge.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
+[19:36:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:23] [main/INFO] [LaunchWrapper]: Using primary tweak class name net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:23] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:36:23] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLTweaker
+[19:36:23] [main/INFO] [FML]: Forge Mod Loader version 14.23.4.2732 for Minecraft 1.12.2 loading
+[19:36:23] [main/INFO] [FML]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_191, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_191\jre
+[19:36:23] [main/ERROR] [FML]: Apache Maven library folder was not in the format expected. Using default libraries directory.
+[19:36:23] [main/ERROR] [FML]: Full: C:\Users\Dylan\.gradle\caches\modules-2\files-2.1\org.apache.maven\maven-artifact\3.5.3\7dc72b6d6d8a6dced3d294ed54c2cc3515ade9f4\maven-artifact-3.5.3.jar
+[19:36:23] [main/ERROR] [FML]: Trimmed: c:/users/dylan/.gradle/caches/modules-2/files-2.1/org.apache.maven/maven-artifact/3.5.3/
+[19:36:23] [main/INFO] [FML]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
+[19:36:23] [main/INFO] [FML]: Detected deobfuscated environment, loading log configs for colored console logs.
+2018-11-11 19:36:24,427 main WARN Disabling terminal, you're running in an unsupported environment.
+[19:36:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLCorePlugin (net.minecraftforge.fml.relauncher.FMLCorePlugin), we are in deobf and it's a forge core plugin
+[19:36:24] [main/INFO] [FML]: Ignoring missing certificate for coremod FMLForgePlugin (net.minecraftforge.classloading.FMLForgePlugin), we are in deobf and it's a forge core plugin
+[19:36:24] [main/INFO] [FML]: Searching C:\Users\Dylan\Desktop\TidBits-MC-Mod-Series\run\.\mods for mods
+[19:36:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
+[19:36:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.fml.relauncher.FMLCorePlugin
+[19:36:24] [main/INFO] [GradleStart]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
+[19:36:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:24] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:36:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLInjectionAndSortingTweaker
+[19:36:24] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:25] [main/ERROR] [FML]: FML appears to be missing any signature data. This is not a good thing
+[19:36:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.relauncher.CoreModManager$FMLPluginWrapper
+[19:36:25] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.FMLDeobfTweaker
+[19:36:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
+[19:36:26] [main/INFO] [LaunchWrapper]: Loading tweak class name net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:26] [main/INFO] [LaunchWrapper]: Calling tweak class net.minecraftforge.fml.common.launcher.TerminalTweaker
+[19:36:26] [main/INFO] [LaunchWrapper]: Launching wrapped minecraft {net.minecraft.client.main.Main}
+[19:36:27] [main/INFO] [minecraft/Minecraft]: Setting user: Player751
+[19:36:31] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[19:36:31] [main/INFO] [minecraft/Minecraft]: LWJGL Version: 2.9.4
+[19:36:32] [main/INFO] [FML]: -- System Details --
+>>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090
 Details:
 	Minecraft Version: 1.12.2
 	Operating System: Windows 10 (amd64) version 10.0
 	Java Version: 1.8.0_181, Oracle Corporation
 	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+<<<<<<< HEAD
 	Memory: 800128056 bytes (763 MB) / 1020264448 bytes (973 MB) up to 7609516032 bytes (7257 MB)
+=======
+	Memory: 602315064 bytes (574 MB) / 811597824 bytes (774 MB) up to 3791650816 bytes (3616 MB)
+>>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090
 	JVM Flags: 0 total; 
 	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
 	FML: 
 	Loaded coremods (and transformers): 
+<<<<<<< HEAD
 	GL info: ' Vendor: 'NVIDIA Corporation' Version: '4.6.0 NVIDIA 411.70' Renderer: 'GeForce GTX 970/PCIe/SSE2'
 [18:47:07] [main/INFO] [FML]: MinecraftForge v14.23.4.2732 Initialized
 [18:47:07] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
@@ -481,3 +522,324 @@ java.lang.Exception: Could not load model definition for variant tbitsmasonry:ma
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[?:1.8.0_181]
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[?:1.8.0_181]
 	at java.lang.reflect.M
+=======
+	GL info: ' Vendor: 'Intel' Version: '4.3.0 - Build 20.19.15.4549' Renderer: 'Intel(R) HD Graphics 4600'
+[19:36:32] [main/INFO] [FML]: MinecraftForge v14.23.4.2732 Initialized
+[19:36:32] [main/INFO] [FML]: Starts to replace vanilla recipe ingredients with ore ingredients.
+[19:36:32] [main/INFO] [FML]: Replaced 1036 ore ingredients
+[19:36:33] [main/INFO] [FML]: Searching C:\Users\Dylan\Desktop\TidBits-MC-Mod-Series\run\.\mods for mods
+[19:36:34] [main/INFO] [FML]: Forge Mod Loader has identified 6 mods to load
+[19:36:35] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at CLIENT
+[19:36:35] [main/INFO] [FML]: Attempting connection with missing mods [minecraft, mcp, FML, forge, examplemod, tbitsmasonry] at SERVER
+[19:36:35] [Thread-3/INFO] [FML]: Using sync timing. 200 frames of Display.update took 665707581 nanos
+[19:36:36] [main/INFO] [minecraft/SimpleReloadableResourceManager]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Example Mod, FMLFileResourcePack:TidBits Masonry
+[19:36:36] [main/INFO] [FML]: Processing ObjectHolder annotations
+[19:36:36] [main/INFO] [FML]: Found 1168 ObjectHolder annotations
+[19:36:36] [main/INFO] [FML]: Identifying ItemStackHolder annotations
+[19:36:36] [main/INFO] [FML]: Found 0 ItemStackHolder annotations
+[19:36:36] [main/INFO] [FML]: Configured a dormant chunk cache size of 0
+[19:36:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Starting version check at http://files.minecraftforge.net/maven/net/minecraftforge/forge/promotions_slim.json
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:limestone_block} has been registered twice for the same name tbitsmasonry:limestone_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:marble_block} has been registered twice for the same name tbitsmasonry:marble_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:slate_block} has been registered twice for the same name tbitsmasonry:slate_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:gabbro_block} has been registered twice for the same name tbitsmasonry:gabbro_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:basalt_block} has been registered twice for the same name tbitsmasonry:basalt_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:rhyolite_block} has been registered twice for the same name tbitsmasonry:rhyolite_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:dolomite_block} has been registered twice for the same name tbitsmasonry:dolomite_block.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:limestone_slab} has been registered twice for the same name tbitsmasonry:limestone_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_limestone_slab} has been registered twice for the same name tbitsmasonry:double_limestone_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:marble_slab} has been registered twice for the same name tbitsmasonry:marble_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_marble_slab} has been registered twice for the same name tbitsmasonry:double_marble_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:slate_slab} has been registered twice for the same name tbitsmasonry:slate_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_slate_slab} has been registered twice for the same name tbitsmasonry:double_slate_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:rhyolite_slab} has been registered twice for the same name tbitsmasonry:rhyolite_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_rhyolite_slab} has been registered twice for the same name tbitsmasonry:double_rhyolite_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:basalt_slab} has been registered twice for the same name tbitsmasonry:basalt_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_basalt_slab} has been registered twice for the same name tbitsmasonry:double_basalt_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:dolomite_slab} has been registered twice for the same name tbitsmasonry:dolomite_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_dolomite_slab} has been registered twice for the same name tbitsmasonry:double_dolomite_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:gabbro_slab} has been registered twice for the same name tbitsmasonry:gabbro_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:double_gabbro_slab} has been registered twice for the same name tbitsmasonry:double_gabbro_slab.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:gabbro_polished} has been registered twice for the same name tbitsmasonry:gabbro_polished.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/WARN] [FML]: * Registry Block: The object Block{tbitsmasonry:rhyolite_brick} has been registered twice for the same name tbitsmasonry:rhyolite_brick.
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:308)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.add(ForgeRegistry.java:289)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.register(ForgeRegistry.java:122)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.registries.ForgeRegistry.registerAll(ForgeRegistry.java:163)
+[19:36:36] [main/WARN] [FML]: *  at com.example.examplemod.Register.registerBlocks(Register.java:227)
+[19:36:36] [main/WARN] [FML]: *  at net.minecraftforge.fml.common.eventhandler.ASMEventHandler_12_Register_registerBlocks_Register.invoke(.dynamic)...
+[19:36:36] [main/WARN] [FML]: ****************************************
+[19:36:36] [main/INFO] [FML]: Applying holder lookups
+[19:36:36] [main/INFO] [FML]: Holder lookups applied
+[19:36:36] [main/INFO] [FML]: Applying holder lookups
+[19:36:36] [main/INFO] [FML]: Holder lookups applied
+[19:36:36] [main/INFO] [FML]: Applying holder lookups
+[19:36:36] [main/INFO] [FML]: Holder lookups applied
+[19:36:36] [Forge Version Check/INFO] [forge.VersionCheck]: [forge] Found status: OUTDATED Target: 14.23.5.2768
+[19:36:36] [main/INFO] [FML]: Applying holder lookups
+[19:36:36] [main/INFO] [FML]: Holder lookups applied
+[19:36:36] [main/INFO] [FML]: Injecting itemstacks
+[19:36:36] [main/INFO] [FML]: Itemstack injection complete
+[19:36:40] [Sound Library Loader/INFO] [minecraft/SoundManager]: Starting up SoundSystem...
+[19:36:40] [Thread-5/INFO] [minecraft/SoundManager]: Initializing LWJGL OpenAL
+[19:36:40] [Thread-5/INFO] [minecraft/SoundManager]: (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
+[19:36:40] [Thread-5/INFO] [minecraft/SoundManager]: OpenAL initialized.
+[19:36:40] [Sound Library Loader/INFO] [minecraft/SoundManager]: Sound engine started
+[19:36:45] [main/INFO] [FML]: Max texture size: 8192
+[19:36:46] [main/INFO] [minecraft/TextureMap]: Created: 512x512 textures-atlas
+[19:36:47] [main/INFO] [FML]: Applying holder lookups
+[19:36:47] [main/INFO] [FML]: Holder lookups applied
+[19:36:47] [main/INFO] [examplemod]: DIRT BLOCK >> minecraft:dirt
+[19:36:47] [main/INFO] [tbitsmasonry]: DIRT BLOCK >> minecraft:dirt
+[19:36:47] [main/INFO] [FML]: Injecting itemstacks
+[19:36:47] [main/INFO] [FML]: Itemstack injection complete
+[19:36:48] [main/INFO] [FML]: Forge Mod Loader has successfully loaded 6 mods
+[19:36:48] [main/WARN] [minecraft/GameSettings]: Skipping bad option: lastServer:
+[19:36:48] [main/INFO] [mojang/NarratorWindows]: Narrator library for x64 successfully loaded
+[19:36:49] [Realms Notification Availability checker #1/INFO] [mojang/RealmsClient]: Could not authorize you against Realms server: Invalid session id
+[19:36:52] [Server thread/INFO] [minecraft/IntegratedServer]: Starting integrated minecraft server version 1.12.2
+[19:36:52] [Server thread/INFO] [minecraft/IntegratedServer]: Generating keypair
+[19:36:52] [Server thread/INFO] [FML]: Injecting existing registry data into this server instance
+[19:36:52] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:gabbro_polished Expected: 4103 Got: 4110
+[19:36:52] [Server thread/WARN] [FML]: Registry Item: Object did not get ID it asked for. Name: tbitsmasonry:rhyolite_brick Expected: 4104 Got: 4111
+[19:36:52] [Server thread/INFO] [FML]: Applying holder lookups
+[19:36:52] [Server thread/INFO] [FML]: Holder lookups applied
+[19:36:53] [Server thread/INFO] [FML]: Loading dimension 0 (New World) (net.minecraft.server.integrated.IntegratedServer@3152ba97)
+[19:36:53] [Server thread/INFO] [minecraft/AdvancementList]: Loaded 488 advancements
+[19:36:53] [Server thread/INFO] [FML]: Loading dimension -1 (New World) (net.minecraft.server.integrated.IntegratedServer@3152ba97)
+[19:36:53] [Server thread/INFO] [FML]: Loading dimension 1 (New World) (net.minecraft.server.integrated.IntegratedServer@3152ba97)
+[19:36:53] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing start region for level 0
+[19:36:54] [Server thread/INFO] [minecraft/MinecraftServer]: Preparing spawn area: 51%
+[19:36:55] [Server thread/INFO] [FML]: Unloading dimension -1
+[19:36:55] [Server thread/INFO] [FML]: Unloading dimension 1
+[19:36:55] [Server thread/INFO] [minecraft/IntegratedServer]: Changing view distance to 12, from 10
+[19:36:56] [Netty Local Client IO #0/INFO] [FML]: Server protocol version 2
+[19:36:56] [Netty Server IO #1/INFO] [FML]: Client protocol version 2
+[19:36:56] [Netty Server IO #1/INFO] [FML]: Client attempting to join with 6 mods : minecraft@1.12.2,tbitsmasonry@1.0,FML@8.0.99.99,forge@14.23.4.2732,mcp@9.42,examplemod@1.0
+[19:36:56] [Netty Local Client IO #0/INFO] [FML]: [Netty Local Client IO #0] Client side modded connection established
+[19:36:56] [Server thread/INFO] [FML]: [Server thread] Server side modded connection established
+[19:36:56] [Server thread/INFO] [minecraft/PlayerList]: Player751[local:E:1392537c] logged in with entity id 255 at (235.78218100001962, 64.0, -73.15990300528314)
+[19:36:56] [Server thread/INFO] [minecraft/MinecraftServer]: Player751 joined the game
+[19:36:58] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[19:36:58] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:36:58] [pool-2-thread-1/WARN] [mojang/YggdrasilMinecraftSessionService]: Couldn't look up profile properties for com.mojang.authlib.GameProfile@5b0f3095[id=fe412f9e-f508-30d0-b407-ff978cf8fc5c,name=Player751,properties={},legacy=false]
+com.mojang.authlib.exceptions.AuthenticationException: The client has sent too many requests within a certain amount of time
+	at com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService.makeRequest(YggdrasilAuthenticationService.java:79) ~[YggdrasilAuthenticationService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillGameProfile(YggdrasilMinecraftSessionService.java:180) [YggdrasilMinecraftSessionService.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:60) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService$1.load(YggdrasilMinecraftSessionService.java:57) [YggdrasilMinecraftSessionService$1.class:?]
+	at com.google.common.cache.LocalCache$LoadingValueReference.loadFuture(LocalCache.java:3716) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.loadSync(LocalCache.java:2424) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.lockedGetOrLoad(LocalCache.java:2298) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$Segment.get(LocalCache.java:2211) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.get(LocalCache.java:4154) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache.getOrLoad(LocalCache.java:4158) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.get(LocalCache.java:5147) [guava-21.0.jar:?]
+	at com.google.common.cache.LocalCache$LocalLoadingCache.getUnchecked(LocalCache.java:5153) [guava-21.0.jar:?]
+	at com.mojang.authlib.yggdrasil.YggdrasilMinecraftSessionService.fillProfileProperties(YggdrasilMinecraftSessionService.java:170) [YggdrasilMinecraftSessionService.class:?]
+	at net.minecraft.client.Minecraft.getProfileProperties(Minecraft.java:3179) [Minecraft.class:?]
+	at net.minecraft.client.resources.SkinManager$3.run(SkinManager.java:138) [SkinManager$3.class:?]
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511) [?:1.8.0_191]
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149) [?:1.8.0_191]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624) [?:1.8.0_191]
+	at java.lang.Thread.run(Thread.java:748) [?:1.8.0_191]
+[19:37:45] [main/INFO] [minecraft/GuiNewChat]: [CHAT] Saved screenshot as 2018-11-11_19.37.45.png
+[19:37:55] [main/INFO] [minecraft/GuiNewChat]: [CHAT] Saved screenshot as 2018-11-11_19.37.54.png
+[19:38:11] [Server thread/INFO] [minecraft/IntegratedServer]: Saving and pausing game...
+[19:38:11] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: Stopping server
+[19:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving players
+[19:38:12] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Player751 lost connection: Disconnected
+[19:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: Player751 left the game
+[19:38:12] [Server thread/INFO] [minecraft/NetHandlerPlayServer]: Stopping singleplayer server as player logged out
+[19:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving worlds
+[19:38:12] [Server thread/INFO] [minecraft/MinecraftServer]: Saving chunks for level 'New World'/overworld
+[19:38:12] [Server thread/INFO] [FML]: Unloading dimension 0
+[19:38:12] [Server thread/INFO] [FML]: Applying holder lookups
+[19:38:12] [Server thread/INFO] [FML]: Holder lookups applied
+[19:38:13] [main/INFO] [minecraft/Minecraft]: Stopping!
+[19:38:13] [main/INFO] [minecraft/SoundManager]: SoundSystem shutting down...
+[19:38:14] [main/WARN] [minecraft/SoundManager]: Author: Paul Lamb, www.paulscode.com
+
+BUILD SUCCESSFUL
+
+Total time: 2 mins 18.415 secs
+>>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090

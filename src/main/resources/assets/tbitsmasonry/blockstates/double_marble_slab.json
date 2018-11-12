@@ -1,0 +1,5 @@
+{
+    "variants": {
+        "variant=default": { "model": "tbitsmasonry:double_marble_slab" }
+    }
+}
