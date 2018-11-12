@@ -1,0 +1,11 @@
+Symbol range map extraction starting
+Processing 3 files
+startProcessing "com\example\examplemod\MasonrySlab.java" md5: 08d7e9a528e9bd24d0b4c7b292287a26
+endProcessing "com\example\examplemod\MasonrySlab.java"
+
+startProcessing "com\example\examplemod\Register.java" md5: fe7f593965bc688de55b4bcd7eb3dfd1
+endProcessing "com\example\examplemod\Register.java"
+
+startProcessing "com\example\examplemod\TidBitsMasonry.java" md5: 7ebdbb86d863936d1e88ed3a0cab0cf0
+endProcessing "com\example\examplemod\TidBitsMasonry.java"
+

@@ -60,6 +60,8 @@ public class Register {
     static MasonrySlab.Half DOLOMITE_SLAB_HALF;
     static MasonrySlab.Double DOLOMITE_SLAB_DOUBLE;
 
+    static MasonryStairs GABBRO_STAIRS;
+
 
     public static void init() {
         LIMESTONE_BLOCK = new Block(Material.ROCK)
