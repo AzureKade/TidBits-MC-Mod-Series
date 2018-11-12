@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Manet-TidBits-MC-Mod-Series.iml" filepath="$PROJECT_DIR$/.idea/modules/Manet-TidBits-MC-Mod-Series.iml" />
       <module fileurl="file://$PROJECT_DIR$/TidBits-MC-Mod-Series.iml" filepath="$PROJECT_DIR$/TidBits-MC-Mod-Series.iml" />
     </modules>
   </component>

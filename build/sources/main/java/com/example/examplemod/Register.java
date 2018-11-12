@@ -29,6 +29,8 @@ public class Register {
     static Block BASALT_BLOCK;
     static Block DOLOMITE_BLOCK;
 
+    static Block TEST_BLOCK;
+
     static MasonrySlab.Half LIMESTONE_SLAB_HALF;
     static MasonrySlab.Double LIMESTONE_SLAB_DOUBLE;
 
@@ -101,7 +103,13 @@ public class Register {
                 .setLightOpacity(0)
                 .setUnlocalizedName("dolomite_block")
                 .setRegistryName("dolomite_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
-
+        TEST_BLOCK = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(1.5f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("test_block")
+                .setRegistryName("test_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
         LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab",Material.ROCK);
         LIMESTONE_SLAB_HALF.setResistance(30)
@@ -213,6 +221,7 @@ public class Register {
                 BASALT_BLOCK,
                 RHYOLITE_BLOCK,
                 DOLOMITE_BLOCK,
+                TEST_BLOCK,
                 LIMESTONE_SLAB_HALF,
                 LIMESTONE_SLAB_DOUBLE,
                 MARBLE_SLAB_HALF,
@@ -239,7 +248,9 @@ public class Register {
                 new ItemBlock(RHYOLITE_BLOCK).setRegistryName(RHYOLITE_BLOCK.getRegistryName()),
                 new ItemBlock(BASALT_BLOCK).setRegistryName(BASALT_BLOCK.getRegistryName()),
                 new ItemBlock(DOLOMITE_BLOCK).setRegistryName(DOLOMITE_BLOCK.getRegistryName()),
-                new ItemBlock(GABBRO_BLOCK).setRegistryName(GABBRO_BLOCK.getRegistryName())
+                new ItemBlock(GABBRO_BLOCK).setRegistryName(GABBRO_BLOCK.getRegistryName()),
+                new ItemBlock(TEST_BLOCK).setRegistryName(TEST_BLOCK.getRegistryName())
+
         );
 
         event.getRegistry().registerAll(
@@ -261,6 +272,7 @@ public class Register {
         registerRender(Item.getItemFromBlock(DOLOMITE_BLOCK));
         registerRender(Item.getItemFromBlock(GABBRO_BLOCK));
         registerRender(Item.getItemFromBlock(BASALT_BLOCK));
+        registerRender(Item.getItemFromBlock(TEST_BLOCK));
 
         registerRender(Item.getItemFromBlock(LIMESTONE_SLAB_HALF));
         registerRender(Item.getItemFromBlock(MARBLE_SLAB_HALF));
