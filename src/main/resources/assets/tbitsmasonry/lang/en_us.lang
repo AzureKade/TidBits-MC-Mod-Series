@@ -5,6 +5,7 @@ tile.gabbro_block.name=Gabbro
 tile.basalt_block.name=Basalt
 tile.rhyolite_block.name=Rhyolite
 tile.dolomite_block.name=Dolomite
+tile.stonecutter.name=Stone Cutter
 
 tile.limestone_slab.name=Limestone Slab
 tile.marble_slab.name=Marble Slab
