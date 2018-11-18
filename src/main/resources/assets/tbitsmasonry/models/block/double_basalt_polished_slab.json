@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "tbitsmasonry:blocks/basalt_polished",
+        "side": "tbitsmasonry:blocks/basalt_polished"
+    }
+}

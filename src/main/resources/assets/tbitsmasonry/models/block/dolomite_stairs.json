@@ -1,0 +1,8 @@
+{
+    "parent": "block/stairs",
+    "textures": {
+        "bottom": "tbitsmasonry:blocks/dolomite",
+        "top": "tbitsmasonry:blocks/dolomite",
+        "side": "tbitsmasonry:blocks/dolomite"
+    }
+}

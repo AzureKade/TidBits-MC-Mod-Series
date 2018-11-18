@@ -1,5 +1,5 @@
 {
-    "parent": "tbitsmasonry:blocks/gabbro",
+    "parent": "tbitsmasonry:blocks/rhyolite_brick",
     "display": {
         "thirdperson": {
             "rotation": [ 10, -45, 170 ],

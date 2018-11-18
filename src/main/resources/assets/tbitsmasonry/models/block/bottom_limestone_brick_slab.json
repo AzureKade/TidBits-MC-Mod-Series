@@ -1,0 +1,8 @@
+{
+    "parent": "block/half_slab",
+    "textures": {
+        "bottom": "tbitsmasonry:blocks/limestone_brick",
+        "top": "tbitsmasonry:blocks/limestone_brick",
+        "side": "tbitsmasonry:blocks/limestone_brick"
+    }
+}

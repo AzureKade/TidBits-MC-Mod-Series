@@ -24,3 +24,38 @@ tile.marble_polished.name=Polished Marble
 tile.slate_polished.name=Polished Slate
 
 tile.gabbro_stairs.name=Gabbro Stairs
+
+tile.gabbro_polished_stairs.name=Polished Gabbro Stairs
+tile.gabbro_polished_slab.name=Polished Gabbro Slab
+
+tile.gabbro_stairs.name=Gabbro Stairs
+
+tile.basalt_stairs.name=Basalt Stairs
+
+tile.basalt_polished_stairs.name=Polished Basalt Stairs
+tile.basalt_polished_slab.name=Polished Basalt Slab
+
+tile.dolomite_stairs.name=Dolomite Stairs
+
+tile.dolomite_polished_stairs.name=Polished Dolomite Stairs
+tile.dolomite_polished_slab.name=Polished Dolomite Slab
+
+tile.rhyolite_stairs.name=Rhyolite Stairs
+
+tile.rhyolite_brick_stairs.name=Rhyolite Brick Stairs
+tile.rhyolite_brick_slab.name=Rhyolite Brick Slab
+
+tile.limestone_stairs.name=Limestone Stairs
+
+tile.limestone_brick_stairs.name=Limestone Brick Stairs
+tile.limestone_brick_slab.name=Limestone Brick Slab
+
+tile.slate_stairs.name=Slate Stairs
+
+tile.slate_polished_stairs.name=Polished Slate Stairs
+tile.slate_polished_slab.name=Polished Slate Slab
+
+tile.marble_stairs.name=Marble Stairs
+
+tile.marble_polished_stairs.name=Polished Marble Stairs
+tile.marble_polished_slab.name=Polished Marble Slab

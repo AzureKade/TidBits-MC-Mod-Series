@@ -1,0 +1,7 @@
+{
+    "parent": "block/cube_column",
+    "textures": {
+        "end": "tbitsmasonry:blocks/dolomite_polished",
+        "side": "tbitsmasonry:blocks/dolomite_polished"
+    }
+}

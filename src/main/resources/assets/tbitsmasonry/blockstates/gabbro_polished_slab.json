@@ -1,0 +1,6 @@
+{
+    "variants": {
+        "half=bottom,variant=default": { "model": "tbitsmasonry:bottom_gabbro_polished_slab" },
+        "half=top,variant=default": { "model": "tbitsmasonry:upper_gabbro_polished_slab" }
+    }
+}
