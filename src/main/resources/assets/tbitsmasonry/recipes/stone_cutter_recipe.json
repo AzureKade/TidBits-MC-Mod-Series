@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XYX",
+    "YXY",
+    "AAA"
+  ],
+  "key": {
+    "Y": {
+      "item": "minecraft:iron_ingot"
+    },
+    "A": [
+      {
+        "item": "minecraft:stone",
+      },
+    ]
+  },
+  "result": {
+    "item": "tbitsmasonry:stone_cutter",
+    "data": 0
+  }
+}

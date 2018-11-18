@@ -29,12 +29,10 @@ public class Register {
     static Block BASALT_BLOCK;
     static Block DOLOMITE_BLOCK;
 
-<<<<<<< HEAD
     static Block TEST_BLOCK;
-=======
     static Block GABBRO_POLISHED;
     static Block RHYOLITE_BRICK;
->>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090
+
 
     static MasonrySlab.Half LIMESTONE_SLAB_HALF;
     static MasonrySlab.Double LIMESTONE_SLAB_DOUBLE;
