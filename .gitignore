@@ -20,3 +20,5 @@ run
 *.bin
 .idea/workspace.xml
 *.xml
+*.log
+*.xml
