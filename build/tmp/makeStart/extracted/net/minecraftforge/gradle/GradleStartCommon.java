@@ -42,15 +42,6 @@ public abstract class GradleStartCommon
     Map<String, String>     argMap        = Maps.newHashMap();
     List<String>            extras        = Lists.newArrayList();
 
-<<<<<<< HEAD
-    static final File       SRG_DIR       = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/srgs");
-    static final File       SRG_NOTCH_SRG = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/notch-srg.srg");
-    static final File       SRG_NOTCH_MCP = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/notch-mcp.srg");
-    static final File       SRG_SRG_MCP   = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/srg-mcp.srg");
-    static final File       SRG_MCP_SRG   = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/mcp-srg.srg");
-    static final File       SRG_MCP_NOTCH = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/mcp-notch.srg");
-    static final File       CSV_DIR       = new File("C:/Users/richa.DESKTOP-FJ2ISTS/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003");
-=======
     static final File       SRG_DIR       = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/srgs");
     static final File       SRG_NOTCH_SRG = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/notch-srg.srg");
     static final File       SRG_NOTCH_MCP = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/notch-mcp.srg");
@@ -58,7 +49,6 @@ public abstract class GradleStartCommon
     static final File       SRG_MCP_SRG   = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/mcp-srg.srg");
     static final File       SRG_MCP_NOTCH = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003/1.12.2/srgs/mcp-notch.srg");
     static final File       CSV_DIR       = new File("C:/Users/Dylan/.gradle/caches/minecraft/de/oceanlabs/mcp/mcp_snapshot/20171003");
->>>>>>> a8f1caafb09936be096a6b03005b4f6f709c9090
 
     protected abstract void setDefaultArguments(Map<String, String> argMap);
 

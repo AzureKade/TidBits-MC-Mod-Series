@@ -30,9 +30,16 @@ public class Register {
     static Block DOLOMITE_BLOCK;
 
     static Block TEST_BLOCK;
+
+
+
+    static Block LIMESTONE_BRICK;
+    static Block SLATE_POLISHED;
+    static Block MARBLE_POLISHED;
     static Block GABBRO_POLISHED;
     static Block RHYOLITE_BRICK;
-
+    static Block BASALT_POLISHED;
+    static Block DOLOMITE_POLISHED;
 
     static MasonrySlab.Half LIMESTONE_SLAB_HALF;
     static MasonrySlab.Double LIMESTONE_SLAB_DOUBLE;
@@ -54,6 +61,8 @@ public class Register {
 
     static MasonrySlab.Half DOLOMITE_SLAB_HALF;
     static MasonrySlab.Double DOLOMITE_SLAB_DOUBLE;
+
+    static MasonryStairs GABBRO_STAIRS;
 
 
     public static void init() {
@@ -114,6 +123,28 @@ public class Register {
                 .setUnlocalizedName("test_block")
                 .setRegistryName("test_block").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
+
+        LIMESTONE_BRICK = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(.8f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("limestone_brick")
+                .setRegistryName("limestone_brick").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        MARBLE_POLISHED = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(1.5f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("marble_polished")
+                .setRegistryName("marble_polished").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        SLATE_POLISHED = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(.8f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("slate_polished")
+                .setRegistryName("slate_polished").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         GABBRO_POLISHED = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
@@ -121,6 +152,13 @@ public class Register {
                 .setLightOpacity(0)
                 .setUnlocalizedName("gabbro_polished")
                 .setRegistryName("gabbro_polished").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        BASALT_POLISHED = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(1.5f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("basalt_polished")
+                .setRegistryName("basalt_polished").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
         RHYOLITE_BRICK = new Block(Material.ROCK)
                 .setResistance(30)
                 .setHardness(1.5f)
@@ -128,6 +166,13 @@ public class Register {
                 .setLightOpacity(0)
                 .setUnlocalizedName("rhyolite_brick")
                 .setRegistryName("rhyolite_brick").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
+        DOLOMITE_POLISHED = new Block(Material.ROCK)
+                .setResistance(30)
+                .setHardness(1.5f)
+                .setLightLevel(0)
+                .setLightOpacity(0)
+                .setUnlocalizedName("dolomite_polished")
+                .setRegistryName("dolomite_polished").setCreativeTab(CreativeTabs.BUILDING_BLOCKS);
 
 
         LIMESTONE_SLAB_HALF = new MasonrySlab.Half("limestone_slab",Material.ROCK);
@@ -255,8 +300,13 @@ public class Register {
                 DOLOMITE_SLAB_DOUBLE,
                 GABBRO_SLAB_HALF,
                 GABBRO_SLAB_DOUBLE,
+                LIMESTONE_BRICK,
+                MARBLE_POLISHED,
+                SLATE_POLISHED,
                 GABBRO_POLISHED,
-                RHYOLITE_BRICK);
+                BASALT_POLISHED,
+                RHYOLITE_BRICK,
+                DOLOMITE_POLISHED);
     }
 
     @SubscribeEvent
@@ -275,8 +325,13 @@ public class Register {
         );
 
         event.getRegistry().registerAll(
-                new ItemBlock(GABBRO_POLISHED).setRegistryName(GABBRO_POLISHED.getRegistryName()),
-                new ItemBlock(RHYOLITE_BRICK).setRegistryName(RHYOLITE_BRICK.getRegistryName())
+                new ItemBlock(LIMESTONE_BRICK).setRegistryName(LIMESTONE_BRICK.getRegistryName()),
+                new ItemBlock(MARBLE_POLISHED).setRegistryName(MARBLE_POLISHED.getRegistryName()),
+                new ItemBlock(SLATE_POLISHED).setRegistryName(SLATE_POLISHED.getRegistryName()),
+                new ItemBlock(RHYOLITE_BRICK).setRegistryName(RHYOLITE_BRICK.getRegistryName()),
+                new ItemBlock(BASALT_POLISHED).setRegistryName(BASALT_POLISHED.getRegistryName()),
+                new ItemBlock(DOLOMITE_POLISHED).setRegistryName(DOLOMITE_POLISHED.getRegistryName()),
+                new ItemBlock(GABBRO_POLISHED).setRegistryName(GABBRO_POLISHED.getRegistryName())
         );
 
         event.getRegistry().registerAll(
@@ -300,8 +355,13 @@ public class Register {
         registerRender(Item.getItemFromBlock(BASALT_BLOCK));
         registerRender(Item.getItemFromBlock(TEST_BLOCK));
 
+        registerRender(Item.getItemFromBlock(LIMESTONE_BRICK));
+        registerRender(Item.getItemFromBlock(SLATE_POLISHED));
+        registerRender(Item.getItemFromBlock(MARBLE_POLISHED));
         registerRender(Item.getItemFromBlock(RHYOLITE_BRICK));
+        registerRender(Item.getItemFromBlock(DOLOMITE_POLISHED));
         registerRender(Item.getItemFromBlock(GABBRO_POLISHED));
+        registerRender(Item.getItemFromBlock(BASALT_POLISHED));
 
         registerRender(Item.getItemFromBlock(LIMESTONE_SLAB_HALF));
         registerRender(Item.getItemFromBlock(MARBLE_SLAB_HALF));
